@@ -16,6 +16,11 @@ jobs:
         with:
           myToken: ${{ github.token }}
           view_top: 1
+      - name: Set environment variables
+        run: |
+          # Short name for current branch. For PRs, use target branch (base ref)
+          GIT_BRANCH=${GITHUB_BASE_REF:-${GITHUB_REF#refs/heads/}}
+          echo $GIT_BRANCH
       - name: Update README
         env:
           VERSION: "${{ steps.get-latest-release.outputs.tag_name }}"
