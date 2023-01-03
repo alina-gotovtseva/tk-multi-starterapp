@@ -26,6 +26,6 @@ jobs:
           echo "${UPDATE}" > README.md
           git config --global user.email "actions@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git checkout $GITHUB_REF_NAME
+          git checkout master
           git commit -am "Update README: Bump badge to ${{ env.VERSION }}" || exit 0
           git push
