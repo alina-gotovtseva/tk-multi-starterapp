@@ -1,5 +1,7 @@
 [![Bake Toolkit Configuration](https://github.com/alina-gotovtseva/tk-multi-starterapp/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/alina-gotovtseva/tk-multi-starterapp/actions/workflows/test.yml)
-<!-- BEGIN LATEST DOWNLOAD BUTTON --><!-- END LATEST DOWNLOAD BUTTON -->
+<!-- BEGIN LATEST DOWNLOAD BUTTON -->
+[![Bake Toolkit Configuration](https://github.com/alina-gotovtseva/tk-multi-starterapp/actions/workflows/test.yml/badge.svg?branch=v0.0.4)](https://github.com/alina-gotovtseva/tk-multi-starterapp/actions/workflows/test.yml)
+<!-- END LATEST DOWNLOAD BUTTON -->
 # Welcome to the Shotgun Pipeline Toolkit Starter App!
 
 This app serves as a quick way to get started when doing Toolkit App development.
