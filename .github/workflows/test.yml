@@ -1,0 +1,19 @@
+on:
+  release:
+    types: [published]
+
+name: Test
+
+jobs:
+  release:
+    name: Bake SGTK Actions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update README
+        uses: theboi/github-update-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          header: "Hey, I'm Ryan! 👋"
+          subhead: "Currently a student in Singapore, passionate about creating all-things-tech to improve society."
+          footer: "**Learn more about me at [ryanthe.com](https://www.ryanthe.com)!**"
