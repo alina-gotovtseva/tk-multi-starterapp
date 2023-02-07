@@ -1,6 +1,6 @@
 [![Bake Toolkit Configuration](https://github.com/alina-gotovtseva/tk-multi-starterapp/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/alina-gotovtseva/tk-multi-starterapp/actions/workflows/test.yml)
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
-[![Bake Toolkit Configuration](https://github.com/alina-gotovtseva/tk-multi-starterapp/actions/workflows/test.yml/badge.svg?branch=v0.0.4)](https://github.com/alina-gotovtseva/tk-multi-starterapp/actions/workflows/test.yml)
+[![Bake Toolkit Configuration](https://github.com/alina-gotovtseva/tk-multi-starterapp/actions/workflows/test.yml/badge.svg?branch=v0.1.0)](https://github.com/alina-gotovtseva/tk-multi-starterapp/actions/workflows/test.yml)
 <!-- END LATEST DOWNLOAD BUTTON -->
 # Welcome to the Shotgun Pipeline Toolkit Starter App!
 
